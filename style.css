@@ -1,0 +1,48 @@
+h1{
+    box-shadow: 2px 2px 5px 5px white;
+   text-align: center;
+   }
+header p{
+    font-size:20px; 
+    font-family: sans-serif;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+    font-size:20px;
+        background: #f5f3f2;
+        background: #121317;
+        background: linear-gradient(#121317, #f5f3f2d3);
+      }
+img{
+    width: 400px; height: 500px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    position: absolute;
+    left: 100px;
+}
+
+.r{
+    position: absolute;
+    left: 250px;
+}
+.gallery{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+.gallery img {
+    opacity: 0.2;
+    width: 170px;
+    height: 200px;
+}
+.gallery img:hover {
+    opacity: 1;
+    border:6px solid #121317;
+    width: 300px; height: 420px;
+    padding: 5px;
+    transition:all 0.5s ease-out ;
+}
